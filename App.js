@@ -1,21 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+// import Group11 from './figma/Group11';
+// import LoginDark from './figma/LoginDark';
+// import Intro from './figma/Intro';
+// import Login from './figma/Login';
+// import Signup from './figma/Signup';
+// import Signup2 from './figma/Signup2';
+import Dashboard from './figma/Dashboard';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+      // <Group11 />
+      // <LoginDark />
+      // <Intro />
+      // <Login />
+      // <Signup />
+      // <Signup2 />
+      <Dashboard />
+        
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
